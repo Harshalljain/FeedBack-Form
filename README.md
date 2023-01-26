@@ -17,6 +17,7 @@ Thankyou Page
 ![image](https://user-images.githubusercontent.com/121716798/214860044-624629a8-08e9-4be0-b89c-6186c5c9c9a0.png)
 
 Tech Stack used:
+
 HTML
 
 CSS
