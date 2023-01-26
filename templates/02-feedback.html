@@ -1,0 +1,16 @@
+<h1>Feedback Form</h1>
+<form method="post">
+  {{form.hidden_tag()}}
+  <br />
+  {{form.cust_name.label}}{{form.cust_name}}
+  <br />
+  {{form.dealer.label}}{{form.dealer}}
+  <br />
+  {{form.rating.label}}{{form.rating}}
+  <br />
+  Comments about your experience.
+  <br />
+  {{form.feedback}}
+  <br />
+  {{form.submit()}}
+</form>

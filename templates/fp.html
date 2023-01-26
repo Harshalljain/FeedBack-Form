@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+
+<head>
+        <title>Simple web Development Template</title>
+     
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000;
+            background-image: url("../static/bmw.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .background {
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+
+        .nav-list {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-list li a:hover {
+            color: yellow;
+        }
+
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 100%;
+            margin: auto;
+            height: 100%;
+        }
+
+        .btn {
+            -webkit-border-radius: 5;
+            -moz-border-radius: 5;
+            border-radius: 5px;
+            font-family: Arial;
+            font-size: 20px;
+            background: darkgrey;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            margin: 200px 0;
+            
+        }
+
+        .btn:hover {
+            background: yellow ;
+            text-decoration:none;
+            color: yellow;
+
+        }
+
+
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.744);
+            font-weight: bold;
+        }
+    </style>
+</head>
+ 
+
+<body>
+        <nav class="navbar background">
+                <ul class="nav-list">
+
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+         
+            </nav>
+
+    <div class="box-main">
+         <button class="btn"><a href="/feedback">Feedback Form
+            </a></button>
+
+    </div>
+     
+
+     
+        <footer class="background">
+                <p class="text-footer">
+                        Made BY - Harshal
+                </p>
+         
+         
+            </footer>
+</body>
+ 
+
+</html>
