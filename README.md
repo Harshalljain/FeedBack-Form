@@ -4,7 +4,9 @@ Built a form to collect the opinions of the customers using Flask Framework
 
 First Page
 
-![image](https://user-images.githubusercontent.com/121716798/214859484-468a34d1-bd75-4a31-968f-14b34dd794a4.png)
+![image](https://user-images.githubusercontent.com/121716798/214862054-5ddfea66-3a59-4c3b-93da-561d018fdb0b.png)
+
+
 
 Feedback page
 
@@ -16,5 +18,6 @@ Thankyou Page
 
 Tech Stack used:
 HTML
+
 CSS
 
